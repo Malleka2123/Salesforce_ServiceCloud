@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Salesforce Service Cloud Suite" parallel="false">
+
+    <test name="Login Tests">
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Case Management Tests">
+        <classes>
+            <class name="tests.CaseTest"/>
+        </classes>
+    </test>
+
+    <test name="Email-to-Case Tests">
+        <classes>
+            <class name="tests.EmailToCaseTest"/>
+        </classes>
+    </test>
+
+    <test name="Escalation Rules Tests">
+        <classes>
+            <class name="tests.EscalationRulesTest"/>
+        </classes>
+    </test>
+
+</suite>
